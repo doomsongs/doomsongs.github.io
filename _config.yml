@@ -1,0 +1,4 @@
+name: arnaveha
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
+title-logo: /docs/assets/img/arnaveha.jpg

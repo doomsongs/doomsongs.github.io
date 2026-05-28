@@ -1,1 +1,38 @@
-
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>
+discomfort reads			</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/style2.css">
+		</head>
+		<body>
+			<a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+				{%- if site.title-logo -%}
+				<img src="{{ site.title-logo | relative_url }}" alt="{{ site.title | escape }}" width="100%"></img>
+					{%- else -%}
+					{{ site.title | escape }}
+					{%- endif -%}
+					</a>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+					<li><a href="/writing">Other Writing</a></li>
+					<li><a href="/resources">Links</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="#"><img width="48" height="48" src="https://img.icons8.com/material-two-tone/48/youtube-play.png" alt="youtube-play"/></a></li>
+	        		<li><a href="#"><img width="48" height="48" src="https://img.icons8.com/material-two-tone/48/bluesky.png" alt="bluesky"</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>

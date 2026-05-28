@@ -29,7 +29,7 @@ p {
     color: #333;
 }
 
-p {
+p.normal {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;

@@ -46,6 +46,10 @@ ul.posts li {
 p.meta {
     font-style: italic;
 }
-.profile {
-    border-radius:50%; 
+.profile-image img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid #000;
+  margin-bottom: 15px;
 }

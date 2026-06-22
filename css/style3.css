@@ -12,7 +12,7 @@ body {
 }
 
 .profile-card {
-  background: #f482c1;
+  background:  #D14719;
   backdrop-filter: blur(10px);
   border-radius: 20px;
   padding: 30px 40px;
@@ -47,7 +47,7 @@ body {
 }
 
 .social-icons a:hover {
-  color:  	#e5bbef;
+  color:  	#f1c7ba;
 }
 
 .betania-patmos-gdl-regular {
